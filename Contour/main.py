@@ -176,9 +176,9 @@ def convexHull_MagicHand_Effect(video, thresholeb, thresholeg, thresholer, thres
 img = cv.imread(r"duke.png")
 img2 = cv.imread(r"hand.png")
 # mdrawContour(img)
-# convexHull(img2)
+convexHull(img2)
 # convexHull_MagicHand_Effect(r"hand_vid.mp4", 40, cv.THRESH_BINARY, 100, 0, 25, 18, 35, 10, 2, 20, 0.6)
-convexHull_MagicHand_Effect(r"doctorStrange.mp4", 140, 140, 140, cv.THRESH_BINARY, 50, 25, 35, 16, 25, 8, 2, 18, 0.6)
+# convexHull_MagicHand_Effect(r"doctorStrange.mp4", 140, 140, 140, cv.THRESH_BINARY, 50, 25, 35, 16, 25, 8, 2, 18, 0.6)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
